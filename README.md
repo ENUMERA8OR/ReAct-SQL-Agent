@@ -18,4 +18,4 @@ For the code in React SQL Agent, it is without memory. I have tested it with the
 
 I had also tested it with Openai's gpt-4o, it worked flawlessly. You can also pass the parameter max_execution_time=10, when you are testing with Openai models, as they have no problem with it. But be aware that, when you pass the same parameter when you are using Groq's models you will get Agent terminated due to limit or iteration time error, use them without this parameter.
 
-For ReAct SQL Agent with memory, I had tested them with groq models, but the best groq model currently llama 3:70b & its flavours couldn't detect the memory even it was in the execution chain(agent executor). I will upload a version that works with them soon.
+For ReAct SQL Agent with memory, I had tested them with groq models, but the best groq model currently llama 3:70b & its flavours couldn't detect the memory even if it was in the execution chain(agent executor). I will upload a version that works with them soon.
